@@ -185,7 +185,7 @@
         <div style="display: flex; gap: 15px; justify-content: center; align-items: center;">
           <a href="assets/resume/Vinay_Resume_SDE_Draft_1.pdf" download class="btn btn-primary"> 📄 Software Engineer
             Resume </a>
-          <a href="assets/resume/Vinay_Resume_DataV1.pdf" download class="btn btn-success"> 📊 Data Role Resume </a>
+          <a href="assets/resume/Vinay_Resume_DataV1.pdf" download class="btn btn-success"> 📊 Data Engineer Resume </a>
         </div>
       </div>
       <!-- End Section Title -->
@@ -234,7 +234,82 @@
                 Systems, Digital Signal Processing
               </p>
             </div>
+
+            <h3 class="resume-title">Publications and Awards</h3>
+
+<!-- Publications Section -->
+<div class="resume-item">
+  <h4>Publications</h4>
+  <ul>
+    <li>
+      <strong>Dey, E., Ravi, A., Kumar, V.K., Lewis, J., Freeman, J., Gregory, T., Suri, N., Busart, C. & Roy, N. (2025).</strong>  
+      <em>DACC-Comm: DNN-Powered Adaptive Compression and Flow Control for Robust Communication in Network-Constrained Environments.</em>  
+      In the COMSNETS Conference.
+      <br>📄 <a href="assets/Publications/DACC.pdf" target="_blank">View Paper (PDF)</a>
+    </li>
+    <li>
+      <strong>Dey, E., Ravi, A., Kumar, V.K., Lewis, J. & Roy, N. (2024).</strong>  
+      <em>Empirically Driven Adaptive Transmission for Enhanced Communication in Adversarial Environment.</em>  
+      In the IEEE Military Communications (MILCOM) Conference. (Accepted for publication)
+      <br>📄 <a href="assets/Publications/MilCom_workshop_2024.pdf" target="_blank">View Paper (PDF)</a>
+    </li>
+  </ul>
+</div>
+
+<!-- Awards Section -->
+<div class="resume-item">
+  <h4>Awards</h4>
+  <ul>
+    <li>🏆 <strong>Certificate of Excellence – Ownership & Accountability</strong>
+        <br><em>Awarded for Ownership, Agility, and Collaboration for IPL & GVPN Intl.</em>  
+        <br>📄 <a href="assets/Awards/1929078_4023838.pdf" target="_blank">View Certificate</a>
+    </li>
+    <li>🏆 <strong>Certificate of Excellence – Xtra Mile (2023)</strong>  
+        <br><em>Awarded for Ownership, Growth Mindset, and Agile Approach in Optimus.</em>  
+        <br>📄 <a href="assets/Awards/Vinay_K_K_Xtra_Mile.pdf" target="_blank">View Certificate</a>
+    </li>
+    <li>🏆 <strong>Certificate of Excellence – Xtra Mile (2022)</strong>  
+        <br><em>Awarded for Big Picture Orientation and Agility in PIPF-related fixes.</em>  
+        <br>📄 <a href="assets/Awards/Vinay_K_K_Xtra_Mile (1).pdf" target="_blank">View Certificate</a>
+    </li>
+    <li>🏆 <strong>Certificate of Excellence – Hi5 Award</strong>
+        <br><em>Awarded for Innovation, Problem-Solving, and Customer Onboarding Support.</em>  
+        <br>📄 <a href="assets/Awards/Vinay_K_K_Hi5.pdf" target="_blank">View Certificate</a>
+    </li>
+    <li>🏆 <strong>Certificate of Excellence – Blue Ribbon</strong>
+        <br><em>Awarded for Execution Focus and Winning Individual Performer Award (2022).</em>  
+        <br>📄 <a href="assets/Awards/Vinay_K_K_Blue_ribbon.pdf" target="_blank">View Certificate</a>
+    </li>
+  </ul>
+</div>
+
             <!-- Edn Resume Item -->
+             <!-- Edn Resume Item -->
+             <h3 class="resume-title">Recommendations</h3>
+
+             <div class="resume-item">
+               <!-- <h4>Letters of Recommendation</h4> -->
+               <!-- <p>Here are my recommendation letters from professors and mentors:</p> -->
+               
+              <ul>
+                <li><a href="" onclick="showPDF('assets/LOR/Sudha Ma\'am LOR.pdf')">Dr. Sudha - Research Advisor, SRM Easwari Engineering College</a></li>
+                <li><a href="" onclick="showPDF('assets/LOR/Rahimunnisa Ma\'am LOR.pdf')">Dr. Rahimunnisa - Research Advisor, SRM Easwari Engineering College</a></li>
+                <li><a href="" onclick="showPDF('assets/LOR/Professional Letter of Recommendation.pdf')">Manojkumar Rajakumaran - Senior Manager Development, Tata Communications</a></li>
+              </ul>
+               <div id="pdf-container" style="display: none; margin-top: 20px;">
+                <h4>Recommendation Preview</h4>
+                <embed id="pdf-viewer" src="" type="application/pdf" width="100%" height="500px">
+              </div>
+             </div>
+             <script>
+              function showPDF(pdfUrl) {
+                event.preventDefault();
+                document.getElementById("pdf-viewer").src = pdfUrl;
+                document.getElementById("pdf-container").style.display = "block";
+              }
+            </script>
+
+             <!-- End Recommendations Section -->
           </div>
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
             <h3 class="resume-title">Professional Experience</h3>
